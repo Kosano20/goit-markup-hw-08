@@ -1,0 +1,62 @@
+.footer {
+  &__portfolio {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    background: var(--dark-gray);
+  }
+
+  &__address-portfolio {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.5;
+    text-decoration: none;
+
+    letter-spacing: 0.03em;
+
+    color: var(--white);
+  }
+
+  &__address-portfolio:hover,
+  &__address-portfolio:focus {
+    color: var(--blue);
+  }
+
+  &__mail-portfolio {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.5;
+    text-decoration: none;
+
+    letter-spacing: 0.03em;
+
+    color: var(--whitegray);
+  }
+
+  &__mail-portfolio:hover,
+  &__mail-portfolio:focus {
+    color: var(--blue);
+  }
+
+  &__contact-portfolio {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.5;
+    text-decoration: none;
+
+    letter-spacing: 0.03em;
+
+    color: var(--whitegray);
+  }
+
+  &__contact-portfolio:hover,
+  &__contact-portfolio:focus {
+    color: var(--blue);
+  }
+}

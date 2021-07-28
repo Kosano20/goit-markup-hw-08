@@ -1,0 +1,120 @@
+.footer {
+  background: var(--dark-gray);
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (max-width: 1199px) {
+      text-align: center;
+    }
+
+    @media screen and (min-width: $tablet) {
+      flex-direction: row;
+    }
+
+    @media screen and (min-width: $tablet) and (max-width: 1199px) {
+      flex-wrap: wrap;
+      align-items: baseline;
+    }
+  }
+
+  &__logo {
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.5;
+    text-decoration: none;
+
+    letter-spacing: 0.03em;
+
+    color: var(--blue);
+  }
+
+  &__logo > span {
+    color: var(--white);
+  }
+
+  &__contacts {
+    @media screen and (max-width: 1199px) {
+      text-align: center;
+    }
+    @media screen and (min-width: $tablet) and (max-width: 1199px) {
+      margin-right: 165px;
+      margin-left: 61px;
+    }
+  }
+
+  &__address {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.5;
+    text-decoration: none;
+
+    letter-spacing: 0.03em;
+
+    color: var(--white);
+
+    transition: color var(--transition-duration) var(--transition-function);
+  }
+
+  &__address:hover,
+  &__address:focus {
+    color: var(--blue);
+  }
+
+  &__mail:hover,
+  &__mail:focus {
+    color: var(--blue);
+  }
+
+  &__contact {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.5;
+    text-decoration: none;
+
+    letter-spacing: 0.03em;
+
+    color: var(--whitegray);
+
+    transition: color var(--transition-duration) var(--transition-function);
+  }
+
+  &__contact:hover,
+  &__contact:focus {
+    color: var(--blue);
+  }
+
+  &__address-item {
+    margin-bottom: 9px;
+  }
+
+  &__list {
+    margin-bottom: 9px;
+  }
+}
+
+.address {
+  margin-top: 20px;
+  @media screen and (max-width: 767px) {
+    margin-bottom: 60px;
+  }
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+  }
+
+  &__item:not(:last-child) {
+    margin-bottom: 8px;
+    @media screen and (min-width: $desktop) {
+      margin-bottom: 9px;
+    }
+  }
+}

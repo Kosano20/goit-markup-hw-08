@@ -97,6 +97,10 @@
       left: 0;
       border-radius: 2px;
       background: var(--blue);
+
+      @media screen and (min-width: $desktop) {
+        top: 80px;
+      }
     }
   }
 }
@@ -115,6 +119,9 @@
       left: 0;
       border-radius: 2px;
       background: var(--blue);
+    }
+    @media screen and (min-width: $desktop) {
+      top: 80px;
     }
   }
 }

@@ -220,6 +220,12 @@ textarea {
   background: var(--blue);
 }
 
+@media screen and (min-width: 1200px) {
+  .nav__link-item:hover::after, .nav__link-item:focus::after {
+    top: 80px;
+  }
+}
+
 .current-page {
   color: var(--blue);
 }
@@ -235,6 +241,12 @@ textarea {
     left: 0;
     border-radius: 2px;
     background: var(--blue);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .current-page::after {
+    top: 80px;
   }
 }
 

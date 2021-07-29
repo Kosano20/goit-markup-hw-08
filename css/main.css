@@ -484,7 +484,7 @@ textarea {
 }
 
 .modal {
-  position: relative;
+  position: fixed;
   padding: 40px;
   border-radius: 4px;
   background-color: var(--white);

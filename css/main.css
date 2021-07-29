@@ -489,8 +489,9 @@ textarea {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 95vw;
+  width: 450px;
   height: 96vh;
-  max-height: 610px;
+  height: 610px;
   overflow: auto;
   background-color: #ffffff;
   padding: 40px;

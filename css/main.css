@@ -491,7 +491,7 @@ textarea {
   width: 95vw;
   height: 96vh;
   max-height: 610px;
-  overflow: scroll auto;
+  overflow: auto;
   background-color: #ffffff;
   padding: 40px;
 }

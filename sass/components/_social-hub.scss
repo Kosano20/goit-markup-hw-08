@@ -2,6 +2,7 @@
   &__hub {
     display: flex;
     margin-top: 16px;
+    justify-content: center;
   }
 
   &__item:not(:last-child) {
